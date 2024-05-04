@@ -1,0 +1,54 @@
+.chart {
+    font-size: 1.25rem; 
+    color: #333; 
+    background-color: #f8f9fa; 
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .chart::before {
+    content: '\1F4CA'; 
+    margin-right: 5px; 
+  }
+  
+
+
+/* IMAGE */
+  .img-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-fluid {
+    border-radius: 15px; 
+    margin-bottom: 20px; 
+    width: 80%; 
+    height: 240px; 
+    object-fit: cover; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+
+  /* CARD */
+  .card {
+    border: 1px solid #ced4da; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body {
+    padding: 20px; 
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-4 {
+      flex: 0 0 25%; 
+      max-width: 25%; 
+    }
+  }
+  

@@ -41,6 +41,7 @@
   font-size: 1.1rem;
 }
 .sidebar-container {
+  /* margin-top: 108px; */
   font-size: 0.8rem; /* Reduced from 0.9rem to 0.8rem */
   display: flex;
   flex-direction: column;
@@ -116,3 +117,16 @@
 
 
 
+
+
+.fixed-sidebar {
+  position: fixed; /* Keeps the sidebar fixed while scrolling */
+  top: 0;
+  left: 0;
+  height: 100%; /* Full height of the viewport */
+  width: 250px; /* Adjust as needed for sidebar width */
+  background-color: white;
+  z-index: 1000; /* Ensures the sidebar stays above other content */
+  overflow-y: auto; /* Allows for vertical scrolling within the sidebar */
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); /* Optional, for shadow effect */
+}

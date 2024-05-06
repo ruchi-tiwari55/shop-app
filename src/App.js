@@ -15,6 +15,7 @@ import Login from './component/Login';
 import { useState } from 'react';
 import { Provider } from "react-redux";
 import store from "./dataStore/configureRedux"
+import MyAds from './component/NavItems/MyAds/MyAds';
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
           <Route path='/postads' element={<Postads />}></Route>
           <Route path='/addusers' element={<Addusers />}></Route>
           <Route path='/viewusers' element={<Viewusers />}></Route>
+          <Route path='/MyAds' element={<MyAds />}></Route>
+
         </Routes>
       </div>
     </div>}
